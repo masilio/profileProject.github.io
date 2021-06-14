@@ -1,0 +1,129 @@
+
+*{
+    font-family: 'Kumbh', sans-serif;
+}
+
+body{
+
+  background-image: url('img/bg-pattern-top.svg'),url('img/bg-pattern-bottom.svg'),linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));;
+  background-repeat: no-repeat,
+  no-repeat,
+  no-repeat;
+background-position: bottom right,
+  left,
+  right;
+}
+.profile{
+    background-image:url('img/bg-pattern-bottom.svg') ;
+    height: 80vh;
+    width: 1440px;
+}
+.card{
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 50px;
+  margin-top: 50px;
+
+  align-items: center;
+
+  margin-right: 400px;
+  margin-left: 400px;
+}
+
+.card__image{
+    background-image: url('img/bg-pattern-card.svg');
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.card__image img{
+    width: 20%;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 60%;
+}
+.profile__content{
+    height: 100px;
+    text-align: center;
+    border-bottom: 1px solid #1233;
+    background-color: #fff;
+}
+
+.title{
+    padding: .7rem;
+    font-size: 18px;
+}
+.age{
+    color: hsl(0, 0%, 59%);
+}
+.loc{
+    color: hsl(0, 0%, 59%);
+    top: 0;
+}
+
+.feedbacks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+   
+}
+
+.feedbacks .feedback{
+    padding-left: 1rem;
+    text-align: center;
+}
+
+h5{
+    font-size: 14px;
+}
+
+.feedback .feedback__name{
+    color:  hsl(0, 0%, 59%);
+    margin-top: 0;
+    font-size: 12px;
+}
+
+@media  screen and (max-width:768px){
+
+     .profile{
+         margin-left: 200px;
+         margin-right: 200px;
+         width: 345px;
+        }
+        .card{
+    margin-right: 20px;
+  margin-left: 20px;
+  text-align: center ;
+        }
+
+}
+@media  screen and (max-width:680px){
+
+    .profile{
+        margin-left: 150px;
+        margin-right: 150px;
+        width: 345px;
+       }
+       .card{
+   margin-right: 20px;
+ margin-left: 20px;
+ text-align: center ;
+       }
+
+}
+
+@media  screen and (max-width:444px){
+
+    body{
+        width: 345px;
+    }
+     .profile{
+         margin-left: 10px;
+         margin-right: 400px;
+         width: 345px;
+        }
+
+}
