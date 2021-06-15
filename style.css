@@ -98,6 +98,12 @@ h5{
   margin-left: 20px;
   text-align: center ;
         }
+        .card__image img{
+            width: 20%;
+            text-align: center;
+            margin-top: 130px;
+            border-radius: 60%;
+        }
 
 }
 @media  screen and (max-width:680px){
@@ -114,16 +120,32 @@ h5{
        }
 
 }
+@media  screen and (max-width:585px){
 
-@media  screen and (max-width:444px){
-
-    body{
+    .profile{
+        margin-left: 10px;
+        margin-right: 10px;
         width: 345px;
-    }
+       }
+       .card{
+           margin-right: 20px;
+         margin-left: 20px;
+         text-align: center ;
+               }
+
+}
+
+@media  screen and (max-width:518px){
+
      .profile{
          margin-left: 10px;
-         margin-right: 400px;
+         margin-right: 10px;
          width: 345px;
         }
+        .card{
+            margin-right: 20px;
+          margin-left: 20px;
+          text-align: center ;
+                }
 
 }
